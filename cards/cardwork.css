@@ -1,0 +1,64 @@
+.main{
+    border: 1px solid;
+    width: 80%;
+    height: 600px;
+    background-color: rgb(4, 4, 89);
+    display: flex;
+}
+.twodiv{
+    position: relative;
+
+}
+.one{
+ background-color: rgb(3, 3, 141);
+ width: 250px;
+ height: 450px;
+ border-radius: 10px;
+
+}
+.two{
+    background-color: rgb(142, 135, 235);
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+    position: absolute;
+    top: 0px;    
+}
+.image{
+    padding: 20px;
+    
+   
+}
+.profil{
+    height: 50px;
+    border-radius: 50px;
+}
+.names{
+    width: 100px;
+    padding: 20px;
+    
+}
+.report{
+    color: white;
+}
+.jeremy{
+    color: white;
+
+}
+.three{
+    padding-top: 300px;
+    padding-left: 20px;
+    color: rgb(88, 88, 230);
+}
+.week{
+    color: white;
+}
+.mainsix{
+    background-color: red;
+    width: 800px;
+    
+}
+.subone{
+    display: flex;
+    border: 1px solid;
+}

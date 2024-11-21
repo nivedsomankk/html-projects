@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: violet;
+            font-family: Arial,sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container{
+            height: 600px;
+            width: 800px;
+            display: flex;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px ;
+        }
+        .container .right{
+            flex: 1;
+            background-color: black;
+            color: white;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        h2{
+            margin-bottom: 20px;
+            font-size: 28px;
+        }
+        .form{
+            margin-bottom: 15px;
+        }
+        .form input,
+        .form select{
+            width: 100%;
+            padding: 10px;
+            
+            background-color: transparent;
+            color: white;
+            font-size: 16px;
+            border: none;
+           
+        }
+        .form input::placeholder{
+            color: #bbb;
+        }
+        .image{
+            height: 600px;
+            width: 400px;
+            display: flex;
+        
+        }
+        .button{
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #45a049;
+            border: none;
+            border-radius: 35px;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            margin-left: 110px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="image">
+            <img src="smoke-pictures-v4sh0sw15ehybswr.jpg" alt="">
+        </div>
+        <div class="right">
+            <h2>Registration info</h2>
+            <form action="login page1.html">
+                <div class="form">
+                    <input type="text" id="first nane" placeholder="First Name">
+
+                </div>
+                <div class="form">
+                    <input type="text" id="address" placeholder="Address">
+
+                </div>
+                <div class="form">
+                    <input type="text" id="zipcode" placeholder="Zip code">
+
+                </div>
+                <div class="form">
+                    <select id="state" style="background-color: black;color: white;">
+                        <option value="State">State</option>
+                        <option value="Kerala">Kerala</option>
+                        <option value="Himachal Pradesh">Himachal Pradesh</option>
+                        <option value="Goa">Goa</option>
+                        <option value="Karnataka">Karnataka</option>
+                    </select> 
+                </div>
+                <div class="form">
+                    <input type="text" id="username" placeholder="Usarname(6-8 characters)">
+                    
+                </div>
+                <div class="form">
+                    <input type="email" id="email" placeholder="Email">
+                </div>
+                <button class="button">Submit</button>
+
+
+            </form>
+
+
+        </div>
+    </div>
+</body>
+</html>

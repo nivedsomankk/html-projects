@@ -1,0 +1,366 @@
+.imagmain{
+    width: 100%;
+    background-image: url(images/hero-bg.jpg);
+    padding-bottom: 200px;
+
+}
+.headings{
+    display: flex;
+
+}
+.head{
+    color: white;
+    padding-left: 2%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+ul{
+    color: white;
+    padding-left: 50px;
+    font-size: 20px;
+}
+.home{
+    padding-left: 600px;
+}
+.conimg{
+    height: 20px;
+    padding-top: 20px;
+    padding-left: 100px;
+}
+.srchimg{
+    height: 20px;
+    padding-top: 20px;
+    padding-left: 33px;
+}   
+.threemain{
+    text-align: center;
+    padding-top: 180px;
+}
+.wel{
+ color: white;
+ font-size: 35px;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.web{
+ color: white;
+ font-size: 50px;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.lorem{
+    color: white;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.butcon{
+    width: 200px;
+    height: 45px;
+    font-size: 20px;
+    border-radius: 20px;
+    border-bottom-right-radius: 0px;
+
+}
+.butcon:hover{
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+.headandpa{
+    text-align: center;
+    padding-top: 50px;
+}
+.what{
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.loremtwo{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 40px;
+}
+.image1{
+    background-color: rgb(48, 47, 47);
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+.image1:hover{
+    background-color: gold;
+}
+.imag{
+    
+    padding: 25px;
+    height: 50px;
+
+}
+.imagtitle{
+    display: flex;
+    text-align: center;
+    
+}
+.css{
+    padding-left: 40px;
+}
+.html{
+    padding-left: 30px;
+}
+.imgandpar{
+    display: flex;
+    padding-top: 80px;
+}
+.imgdiv{
+    padding-left: 200px;
+    
+}
+.lapimg{
+    height: 550px;
+}
+.headparbut{
+    padding-left: 50px;
+    width: 600px;
+    padding-top: 80px;
+}
+.loremthree{
+  font-size: 18px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.readbut{
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 20px;
+    border-bottom-right-radius: 0px;
+    background-color: black;
+    color: white;
+    
+
+}
+.readbut:hover{
+    background-color: white;
+    color: black;
+
+}
+.creatworks{
+    width: 1100px;
+    padding-left: 150px;
+    padding-top: 50px;
+}
+.onlyimg1{
+  display: flex;
+  padding-left: 150px;
+  padding-top: 50px;
+}
+.img1{
+    height: 350px;
+}
+.onlyimg2{
+  display: flex;
+  padding-left: 150px;
+}
+.img4{
+  width: 708px;
+}
+.custdiv{
+    text-align: center;
+    padding-top: 100px;
+
+}
+.customer{
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+}
+.maincard{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 100px;
+}
+.card1{
+ justify-content: center;
+ width: 280px;
+ text-align: center;
+}
+.profil{
+ height: 20px;
+}
+.dipiscing{
+    color: gold;
+    
+}
+.smallp{
+    font-size: 20px;
+    
+}
+.card2{
+    justify-content: center;
+    border: 1px white;
+    width: 280px;
+    text-align: center;
+    box-shadow: 0px 0px 10px 0px ;
+
+}
+.arrowbut{
+    display: flex;
+    padding-top: 100px;
+    justify-content: center;
+    gap: 4px;
+}
+.arrow{
+    height: 50px;
+    width: 50px;
+    color: white;
+    background-color: black;
+    border-radius: 50px;
+}
+.arrow:hover{
+    background-color: rgb(56, 56, 56);
+}
+.lastimg{
+    background-image: url(images/target-bg.jpg);
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 100px;
+}
+.numhead{
+    width: 300px;
+    text-align: center;
+}
+.num{
+    color: white;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.head{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.form{
+    text-align: center;
+    padding-top: 50px;
+
+}
+.enter{
+    height: 15px;
+    width: 800px;
+    border-radius: 30px;
+    font-size: 15px;
+    padding: 15px;
+    border: 1px solid lightgray;
+    
+}    
+.mssg{
+    height: 200px;
+    width: 800px;
+    padding: 15px;
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 30px;
+    border: 1px solid lightgray;
+}
+.msg{
+    padding-top: 40px;
+}
+.goldbut{
+    background-color: gold;
+    height: 50px;
+    width: 150px;
+    border: none;
+    font-size: 15px;
+    color: white;
+    margin-top: 30px;
+    border-radius: 25px;
+}
+.world{
+    padding-top: 50px;
+}
+.lastmaindiv{
+    display: flex;
+    background-color: rgb(42, 42, 42);
+    justify-content: center;
+    gap: 100px;
+    
+}
+.fainal{
+    padding-top: 40px;
+
+}
+.lasthead{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+
+}
+.stophead{
+    color: white;
+}
+.stop{
+    height: 20px;
+    padding-right: 10px;
+}
+.fainal2{
+    width: 250px;
+    padding-top: 40px;
+}
+.ipsum{
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    
+}
+.fainal3{
+    text-align: center;
+    padding-top: 40px;
+}
+.screenshot{
+    height: 150px;
+}
+.fainal4{
+    padding-top: 40px;
+}
+
+.inpute{
+   width: 240px;
+   font-size: 18px;
+   padding: 5px;
+}
+.subbut{
+    background-color: gold;
+    height: 40px;
+    width: 130px;
+    border: none;
+    font-size: 15px;
+    color: white;
+    margin-top: 30px;   
+}
+.fdimg{
+    padding-top: 20px;
+    
+
+}
+.bf{
+    padding-left: 10px;
+}
+.cf{
+    padding-left: 10px;
+}
+.df{
+    padding-left: 10px;
+}
+.hrdiv{
+    display: flex;
+    justify-content: center;
+    background-color:  rgb(42, 42, 42);
+    padding-top: 50px;
+}
+.hr{
+    width: 500px;
+    
+}
+.lastpdiv{
+    display: flex;
+    justify-content: center;
+    background-color:  rgb(42, 42, 42);
+}

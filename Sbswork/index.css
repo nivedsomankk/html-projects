@@ -1,0 +1,505 @@
+
+body,html{
+    overflow-x: hidden
+}    
+.page{
+    width: 100%;
+    
+}
+.head{
+    width: 100%;
+    display: flex;
+    padding-top: 8px;
+}
+.image{
+    
+}
+.buttons{
+    padding: 1%;
+    padding-left: 400px;
+    width: 600px;
+    margin-left: 60px;
+    
+}
+.headbutt{
+    font-size: 20px;
+    padding: 2%;
+    color: black;
+    border-radius: 40px;
+    border: none;
+    background: none;
+    
+}
+.headbutt:hover{
+    background-color: orangered;
+    color: white;
+}
+.lasts{
+    height: 50px;
+    width: 150px;
+    padding: 1%;
+    margin-left: 200px;
+}
+.image2{
+    width: 15px;
+    height: 15px;
+    padding-left: 100px;
+    padding: 20px;
+    border-top: 50px;
+}
+.homep{
+    display: flex;
+    width: 100%;
+}
+.head1{
+    height: 470px;
+    width: 300px;
+    padding: 8%;
+    padding-bottom: 10px;
+    margin-left: 25px;
+}
+.read{
+    color: black;
+}
+.read:hover{
+    color: orangered;
+}
+.pic{
+    margin-left: 90px;
+}
+.image3{
+    height: 670px;
+    
+}
+.arrow{
+    width: 300px;
+    height: 55px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    margin-right: 10px;
+}
+.arr1{
+    height: 65px;
+    width: 65px;
+    font-size: 30px;
+    border-radius: 50px;
+    color: white;
+    background-color: blue;
+    border: none;
+    padding: 1%;
+}
+.arr1:hover{
+    background-color: orangered;
+}
+.arr2{
+    height: 65px;
+    width: 65px;
+    border-radius: 50px;
+    font-size: 30px;
+    color: white;
+    background-color: blue;
+    margin-left: 25px;
+    border: none;
+    padding: 1%;
+}
+.arr2:hover{
+    background-color: orangered;
+}
+.ourhead{
+    width: 100%;
+    padding: 1%;
+    height: 250px;
+}
+.headpar{
+    width: 500px;
+    height: 200px;
+    margin-left: 500px;
+    padding: 1%;
+    margin-top: 20px;
+}
+.impa{
+    display: flex;
+    width: 100%;
+    padding: 5%;
+}
+.onesk{
+    background-color: orangered;
+    border: 1px solid;
+    width: 280px;
+    height: 350px;
+    padding: 3%;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+.clone{
+    padding: 2%;
+    margin-left: 90px;
+}
+.hskate{
+    color: white;
+    margin-left: 50px;
+}
+.psone{
+    color: white;
+    font-size: 19px;
+    margin-left: 20px;
+
+}
+.pstwo{
+    color: white;
+    font-size: 19px;
+    width: 230px;
+    margin-left: 30px;
+}
+.onelp{
+    color: white;
+    font-size: 19px;
+    margin-left: 70px;
+}
+.twosk{
+    background-color: blue;
+    border: 1px solid;
+    width: 280px;
+    height: 350px;
+    padding: 3%;
+    border-radius: 10px;
+    margin-left: 50px;
+
+}
+.reads{
+    display: flex;
+}
+
+.rmone{
+    margin-left: 120px;
+    width: 150px;
+    
+}
+.rmone:hover{
+    color: orangered;
+}
+.rmtwo{
+    margin-left: 300px;
+    width: 150px;
+    
+}
+.rmtwo:hover{
+    color: orangered;
+}
+       
+.rmth{
+    margin-left: 280px;
+    width: 150px;
+}
+.rmth:hover{
+    color: orangered;
+}
+.bluim{
+    background-image: url(images/about_bg.jpg);
+    width: 100%;
+    display: flex;
+    
+}
+.abs{
+    width: 650px;
+    margin-left: 80px;
+    margin-top: 1%;
+}
+.absh{
+    color: white;
+    font-size: 45px;
+    width: 100px;
+    margin-left: 35px;
+}
+.absp{
+    color: white;
+    font-size: 22px;
+    margin-left: 8px;
+    padding: 5%;
+
+}
+.absr{
+    color: white;
+    margin-left: 40px;
+}
+.absr:hover{
+    color: orangered;
+}
+.bluima{
+    height: 500px;
+    margin-left: 200px;
+    
+}
+.image4{
+    height: 470px;
+    padding: 1%;
+    padding-top: 5%;
+}
+.svhp{
+    width: 100%;
+}    
+.svh1{
+    height: 100px;
+    width: 100%;
+    
+}
+.svh{
+   width: 500px;
+   font-size: 45px;
+   padding: 1%;
+   margin-left: 500px;
+}
+.svp{
+    font-size: 20px;
+    padding: 1%;
+    margin-left: 260px;
+}
+.sbimages{
+    display: flex;
+    padding: 30px;
+}
+.sbi1{
+    margin-left: 10px;
+}
+.sbi2{
+    margin-left: 50px; 
+}
+.sbi3{
+    margin-left: 90px;
+}
+.smd{
+    display: flex;
+}
+.smd1{
+ padding: 2%;
+
+}
+.smm{
+    color: black;
+}
+.smm:hover{
+    color: orangered;
+}
+.smd2{ 
+    padding: 2%;
+    
+}
+.smm1{
+    color: black;
+    margin-left: 300px;
+}
+.smm1:hover{
+    color: orangered;
+}
+.smd3{
+   padding: 2%;
+}
+.smm2{
+   color: black;
+   margin-left: 350px;
+}
+.smm2:hover{
+    color: orangered;
+}
+.shpd{
+    display: flex;
+}
+.shim{
+    margin-left: 20px;
+}
+.shop{
+    height: 850px;
+    padding: 5%;
+}
+.maindiv{
+    width: 100%;
+    margin-left: 60px;
+}
+.shophead{
+    width: 250px;
+}
+.ossh{
+    font-size: 50px;
+    padding: 5%;
+    margin-top: 350px;
+}
+.shoppar{
+    padding: 2%;
+    width: 450px;
+}
+.ossp{
+    font-size: 20px;
+}
+.buynow{
+    color: black;
+    padding: 2%;
+    margin-left: 10px;
+}
+.buynow:hover{
+    color: orangered;
+}
+.bludiv{
+    background-color: blue;
+    padding-bottom: 100px;
+}
+.bludh{
+   margin-left: 600px;
+
+}
+.testh{
+    color: white;
+    padding: 2%;
+    font-size: 40px;
+}
+.wtcol{
+    background-color: white;
+}
+.threecol{
+    display: flex;
+    background-color: blue;
+}
+.col1{
+   width: 260px;
+   padding: 2%;
+   background-color: orangered;
+   margin-left: 50px;
+   border-radius: 10px;
+   height: 250px;
+
+}
+.jonh{
+    color: white;
+    margin-left: 80px;
+}
+.smim{
+    height: 20px;
+    padding: 2%;
+    margin-left: 100px;
+}
+.smip{
+    color: white;
+    font-size: 25px;
+    padding: 1px;
+}
+.col2{
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    width: 500px;
+    margin-left: 50px;
+
+}
+.mich{
+    color: black;
+    padding: 2%;
+    margin-left: 200px;
+    
+}
+.mmim{
+    padding: 5%;
+    margin-left: 200px;
+
+}
+.mmip{
+    font-size: 25px;
+}
+.twobut{
+    padding-left: 600px;
+    padding-top: 30px;
+}
+.lastbut{
+    padding: 20px;
+    background-color: orangered;
+    font-size: 30px;    
+    width: 80px;
+    border: none;
+    color: white;
+    border-radius: 50px;
+    
+}
+.lcm{
+    display: flex;
+}
+.contimag{
+    padding-left: 150px;
+}
+.location{
+    height: 20px;
+    padding-right: 20px;
+}
+.call{
+    height: 10px;
+    width: 20px;
+    padding-right: 20px;
+}
+.mail{
+    height: 10px;
+    padding-right: 20px;
+}
+.lastdiv{
+    padding-left: 200px;
+}
+.sub{
+    background-color: orangered;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+}
+.sub:hover{
+    background-color: blue;
+}
+.enteremail{
+    width: 200px;
+    height: 50px;
+    font-size: 15px;
+    border: 1px solid lightgray;
+
+}
+.lastdiv2{
+    padding-bottom: 50px;
+
+}
+.lastbuttons{
+    font-size: 19px;
+    border: none;
+    background-color: transparent;
+    padding-left: 10px;
+
+}
+.lastabout{
+    font-size: 19px;
+    border: none;
+    background-color: transparent;
+    padding-left: 50px;
+}
+.lastskat{
+    font-size: 19px;
+    border: none;
+    background-color: transparent;
+    padding-left: 50px;
+}
+.lastshop{
+    font-size: 19px;
+    border: none;
+    background-color: transparent;
+    padding-left: 50px;
+    
+}
+.lastcont{
+    font-size: 19px;
+    border: none;
+    background-color: transparent;
+    padding-left: 50px;
+}
+.orandiv{
+    background-color: orangered;
+    padding: 10px;
+}
+.lastp{
+    color: white;
+    padding-left: 500px;
+}
+

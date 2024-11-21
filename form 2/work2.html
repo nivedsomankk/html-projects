@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgba(0, 64, 255, 0.505);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        .container{
+            display: flex;
+            height: 650px;
+            width: 1000px;
+            border-style: hidden;
+            border: 1px solid;
+            border: none;
+            border-style: none;
+            margin-top: 20px;
+            box-shadow: 0 2px 5px;
+            border-radius: 3%;
+        }
+        .container-left{
+            background-color: white;
+            form input, from select,::placeholder{
+                color:black
+            }
+            width: 800px;
+            padding-inline-start: 4%;
+            border: none;
+            border-bottom-left-radius: 3%;
+            border-top-left-radius: 3%;
+            border-style: none;
+        }
+        .container-right{
+            
+            background-color: rgb(68, 42, 199);
+             form input, form select,::placeholder{
+                color:white;
+                border-bottom-color: cornflowerblue;
+                
+            }
+            width: 800px;
+            padding-inline-start: 4%;
+            border: none;
+            border-top-right-radius: 3%;
+            border-bottom-right-radius: 3%;
+            border-style: none;
+            
+        }   
+        .form input,
+        .form select{
+           
+           background-color: transparent;
+           padding: 3px;
+           padding-bottom: 28px;
+           border: 2px solid;
+           border-bottom-style: groove;
+           border-left: none;
+           border-right: none;
+           border-top: none;
+           margin-bottom: -1px;
+          
+        }
+        button{
+            height: 30px;
+            width: 150px;
+            padding: none;
+            border: 1px solid black;
+            border-radius: 20px;
+            } 
+           
+
+    </style>
+</head>
+<body>
+   <div class="container">
+     <div class="container-left">
+         <h2 style="color: rgb(45, 194, 249);" >General Information </h2><br>
+         <form action="login page2.html">
+             <div class="form">
+                  <select id="title" style="width: 400px;">
+                    
+                       <option value="title" style="color:burlywood;">Title</option>
+                       <option value="xoo" style="color: dodgerblue;">X00</option>
+                       <option value="x10" style="color: dodgerblue;">X10</option>
+                       <option value="x11" style="color: dodgerblue;">X11</option>
+                  </select>
+
+               </div><br>
+               <div class="form">
+                     <input type="text" id="firstname" placeholder="First Name" style="width: 198px;">
+                     <input type="text" id="lastname" placeholder="Last Name" style="width: 198px;">
+              </div><br>
+              <div class="form">
+                  <select  id="position" style="width: 400px;">
+                       <option value="position" style="color: burlywood;">Position</option>
+                       <option value="salarygrade" style="color: dodgerblue;">Salary Grade</option>
+                       <option value="positiondescription" style="color: dodgerblue;">Position Description</option>
+                       <option value="jobdescription" style="color: dodgerblue;">Job Description</option>
+                    </select>
+               </div><br>
+             <div class="form">
+                  <input type="text" id="company" placeholder="Campany"style="width: 400px;"  >
+               </div><br>
+             <div class="form">
+                  <input type="text" id="business arena" placeholder="Business Arena" style="width: 240px;">
+                  <select id="employees" style="width: 160px;">
+                       <option value="employees" style="color: burlywood;">Employees</option>
+                       <option value="fulltime" style="color: dodgerblue;">FULL-Time</option>
+                       <option value="parttime" style="color: dodgerblue;">Part-Time</option>
+                       <option value="temporary" style="color: dodgerblue;">Temporary</option>
+                  </select>
+              </div><br>
+            
+            </form>
+       </div>
+       <div class="container-right">
+          <h2 style="color: white;"> Contact Details</h2><br>
+          <form action="login page2.html">
+             <div class="form">
+                 <input type="text" id="street+nr" placeholder="Street + Nr" style="width: 400px;">
+              </div><br>
+              <div class="form">
+                 <input type="text" id="additionalinformation" placeholder="Additional Information" style="width: 400px;">
+                  
+                </div><br>
+                <div class="form">
+                    <input type="text" id="zipcode" placeholder="Zip Cod" style="width: 130px;">
+                    <select id="place" style="width: 250px;">
+                        <option value="place" style="color: crimson;">Place</option>
+                        <option value="mumbai" style="color: black;">Mumbai</option>
+                        <option value="beinjing" style="color: black;">Binjing</option>
+                        <option value="toronto" style="color: black;">Toronto</option>
+                    </select>
+                </div><br>
+                <div class="form">
+                   <select id="country" style="width: 400px;">
+                        <option value="country" style="color: crimson;">Country</option>
+                        <option value="india" style="color: black;">INDIA</option>
+                        <option value="china" style="color: black;">CHINA</option>
+                        <option value="canada" style="color: black;">CANADA</option>
+
+                    </select>
+                </div><br>
+                <div class="form">
+                    <input type="text" id="code+" placeholder="Code +" style="width: 130px;">
+
+                    <input type="text" id="phonenumber" placeholder="Phone Number" style="width: 250px;">
+
+                </div><br>
+                <div class="form">
+                    <input type="email" id="email" placeholder="Your Email" style="width: 400px;">
+
+                </div><br>
+                <div class="form" >
+                   <input   type="checkbox"  id="termsandcondition" name="Terms and Condition" >
+                    <label for="termsandcondition" style="color: white;">i do the 
+                        <a href="https://www.termsfeed.com/blog/sample-terms-and-conditions-template/" style="color: white;">Terms and Condition</a> of your site
+                    </label><br>
+
+               </di><br>
+
+               <button>
+                  <b>Register Badge
+              </button>
+            </form>
+       </div>
+    
+
+    </div>
+     
+</body>
+</html>
