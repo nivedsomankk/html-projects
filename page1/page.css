@@ -1,0 +1,87 @@
+.image{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(1-hero-image.webp);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 750px;
+}
+.head{
+    display: flex;
+    align-items: 100px;
+    justify-content: center;
+    gap: 550px;
+    padding-top: 50px;
+}
+h3{
+    color: white;
+}
+ul{
+    color: white;
+}
+.home{
+    display: flex;
+}
+.bighead{
+    width: 480px;
+    padding-left: 250px;
+    padding-top: 200px;
+}
+.sub{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+.para1{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 250px;
+    padding-top: 50px;
+}
+.last{
+    display: flex;
+}
+.last1{
+    padding-left: 250px;
+
+}
+input{
+    width: 250px;
+    height: 20px;
+    padding: 5px;
+}
+.last2{
+    padding-left: 5px;
+
+}
+button{
+    background-color: orangered;
+    text-align: center;
+    padding: 5px;
+    width: 250px;
+    height: 35px;
+    border-radius: 8px;
+    color: white;
+    border: none;
+}
+.divtwo{
+    width: 100%;
+    height: 500px;
+}
+.head2{
+    padding-left: 250px;
+    padding-top: 50px;
+}
+.Images{
+    display: flex;
+    gap: 35px;
+    padding-top: 20px;    
+}
+.img1{
+padding-left: 250px;
+
+}
+.img2{
+    height: 300px;
+}
+
